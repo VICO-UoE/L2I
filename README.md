@@ -4,7 +4,9 @@ This is the implementation of [Learning to Impute: A General Framework for Semi-
 <figure class="image">
   <img src="./figure/diagram.jpg">
   <figcaption>Figure 1. Computation graph of (a) consistency based semi-supervised learning and (b) our algorithm on imputing unlabeled samples in a deep neural network. Note that the illustration shows three instances of the same network and our method uses a single neural network.</figcaption>
-</figure>
+</figure><br/>
+
+
 
 Recent semi-supervised learning methods have shown to achieve comparable results to their supervised counterparts while using only a small portion of labels in image classification tasks thanks to their regularization strategies. In this paper, we take a more direct approach for semi-supervised learning and propose learning to impute the labels of unlabeled samples such that a network achieves better generalization when it is trained on these labels. We pose the problem in a learning-to-learn formulation which can easily be incorporated to the state-of-the-art semi-supervised techniques and boost their performance especially when the labels are limited. We demonstrate that our method is applicable to both classification and regression problems including image classification and facial landmark detection tasks.
 
