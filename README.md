@@ -102,11 +102,11 @@ For any question, you can contact `w.h.li@ed.ac.uk`.
 ## Citation
 If you find this code to be useful in your work and use it for a publication, please kindly cite:
 ```
-@inproceedings{li2020knowledge,
-  title={Knowledge Distillation for Multi-task Learning},
-  author={Li, Wei-Hong and Bilen, Hakan},
-  booktitle={Proceedings of the European Conference on Computer Vision Workshop on Imbalance Problems in Computer Vision},
-  year={2020}
+@article{li2019learning,
+  title={Learning to impute: A general framework for semi-supervised learning},
+  author={Li, Wei-Hong and Foo, Chuan-Sheng and Bilen, Hakan},
+  journal={arXiv preprint arXiv:1912.10364},
+  year={2019}
 }
 ```
 
