@@ -1,7 +1,10 @@
 # Learning to Impute: A General Framework for Semi-supervised
 This is the implementation of [Learning to Impute: A General Framework for Semi-supervised](https://arxiv.org/pdf/1912.10364.pdf) introduced by [Wei-Hong Li](https://weihonglee.github.io), [Chuan-Sheng Foo](http://ai.stanford.edu/~csfoo/), and [Hakan Bilen](http://homepages.inf.ed.ac.uk/hbilen/index.html). We provide code for our method (L2I) that performs Image Classification on CIFAR-10 and Facial Landmark Regression on AFLW. The repository also contains code for baselines which are compared in our paper. All methods are implemented in Pytorch
 
-<center><img src="./figure/diagram.jpg"></center>
+<figure class="image">
+  <img src="./figure/diagram.jpg">
+  <figcaption>Figure 1. Computation graph of (a) consistency based semi-supervised learning and (b) our algorithm on imputing unlabeled samples in a deep neural network. Note that the illustration shows three instances of the same network and our method uses a single neural network.</figcaption>
+</figure>
 
 Recent semi-supervised learning methods have shown to achieve comparable results to their supervised counterparts while using only a small portion of labels in image classification tasks thanks to their regularization strategies. In this paper, we take a more direct approach for semi-supervised learning and propose learning to impute the labels of unlabeled samples such that a network achieves better generalization when it is trained on these labels. We pose the problem in a learning-to-learn formulation which can easily be incorporated to the state-of-the-art semi-supervised techniques and boost their performance especially when the labels are limited. We demonstrate that our method is applicable to both classification and regression problems including image classification and facial landmark detection tasks.
 
