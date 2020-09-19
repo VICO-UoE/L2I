@@ -44,7 +44,7 @@ parser.add_argument('--manualSeed', type=int, default=0, help='manual seed')
 parser.add_argument('--gpu', default='0', type=str,
                     help='id(s) for CUDA_VISIBLE_DEVICES')
 #Method options
-parser.add_argument('--n-labeled', type=int, default=-1,
+parser.add_argument('--n-labeled', type=float, default=-1,
                         help='Number of labeled data')
 parser.add_argument('--val-iteration', type=int, default=150,
                         help='Number of labeled data')
