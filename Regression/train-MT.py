@@ -83,14 +83,13 @@ def main():
     if not os.path.isdir(args.out):
     	mkdir_p(args.out)
     # Data
-    print(f'==> Preparing alfw')
+    print(f'==> Preparing AFLW')
     transform_train = transforms.Compose([
         transforms.Resize((60,60)),
         ])
     transform_val = transforms.Compose([
         transforms.Resize((60,60)),
         ])
-    num_workers = 24
     train_labeled_set, train_unlabeled_set, stat_labeled_set, train_val_set, val_set, test_set, mean, std = dataset.get_alfw(args.data_root, args.n_labeled, transform_train, transform_val)
 
     num_samples = args.val_iteration * args.batch_size

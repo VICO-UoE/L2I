@@ -85,7 +85,7 @@ def main():
     if not os.path.isdir(args.out):
     	mkdir_p(args.out)
     # Data
-    print(f'==> Preparing alfw')
+    print(f'==> Preparing AFLW')
     transform_train = transforms.Compose([
         transforms.Resize((60,60)),
         ])
