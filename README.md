@@ -104,7 +104,7 @@ tensorboard --port 6006 --logdir aflwL2IO@0.01
 
 
 ## Contact
-For any question, you can contact `w.h.li@ed.ac.uk`.
+For any question, you can contact [Wei-Hong Li](https://weihonglee.github.io).
 
 ## Citation
 If you find this code to be useful in your work and use it for a publication, please kindly cite:
